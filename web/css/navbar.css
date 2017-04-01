@@ -1,0 +1,53 @@
+body{	background-color: #edeae7;}
+#menu{float:right;}
+#menu li.navbar {	display:inline-block;	margin-top: 17px;    margin-bottom: 5px;	}
+#menu>li.logo{	float: left;	margin-top: 14px;}
+.resulio-logo{	max-width: 80px;	padding-left: 20px;}
+#menu li.active{	color: #52BE80;}
+#menu li a{	text-decoration:none;	color:#013537;}
+#menu li a,#menu li.active a{	padding: 9px 18px;	display:block;   font-size: 19px;    font-family: 'Helvetica LT Std-bold'}
+#menu li.active a{	color: #38a5ab;}
+.FooterNav{min-height: 0px;margin-bottom: 0px}
+.footer{	position: absolute;    width: 101%;    background-color: #023638;    bottom: 99%;    margin-left: -2%;}
+.nav>li>h5 {    position: relative;    display: block;    padding: 10px 15px;    color: #fff;}
+.nav>li.socialLnk {   float: right;}
+#myNavbar{		background-color: #edeae7;}
+.headerNav{	border-style: none; 	position:fixed;	top:0;	left:0;	border-radius: 0px;	z-index: 70;	width: 100%;	padding: 0;	margin:0;	background-color: #edeae7;	box-shadow: 0px 2px 15px 0.5px #adadac;}
+#headcollapseButton{	background-color: #153443;	    margin-top: 20px;}
+
+.socialLnk{    width: 80px;    text-align: center;height: 80px}
+.nav>li>a>img {position: absolute;    margin-left: -20%;}
+.socialLnk:hover .iconDown{	height: 0px;	width: 76px;}
+.iconUp{	height: 0%; 		overflow:hidden;	position: absolute;	}
+.socialLnk:hover .iconUp{		height: 200%;	}
+@media (max-width: 908px){
+	#menu>li>a, #menu li.active a {    padding: 9px 10px;}
+}
+@media (max-width: 769px){#menu>li>a, #menu li.active a {    padding: 9px 8px;}}
+@media (max-width: 767px){
+	#menu li.navbar {     margin-top: 0;    margin-bottom: 0;}
+	#menu>li>a, #menu li.active a {    padding: 9px 8px;}
+	.headernavbar{height: 80px}
+	#menu>li{		width: 100%;	text-align: center;	border-bottom: 1px solid #153443;}
+	#menu{margin-left: -5%;}
+	.nav>li.Copyright{position: absolute;}
+	#menu {    float: none;margin-bottom: 0px}
+
+	li.Copyright>h5{font-size: 12px;padding: 15px 18px;}
+	.socialLnkImg {max-height: 35px}
+	.nav>li.socialLnk {    padding: 5px 0px;}
+}
+@media (max-width: 650px){
+	.footer{width: 100%;}
+	#menu {    margin-left: -15%;}
+}
+@media (max-width: 500px){
+	.FeatureImageContentImage {    max-width: 30%;}
+	.FeatureContent>h1 {     font-size: 25px;}
+}
+@media (max-width: 450px){
+	.featureField>div>div>h5 {    font-size: 10px;}
+	.FooterNav {    width: 104%;    left: -5%;}
+	.socialLnk {    width: 50px;  left: -5%;  }
+}
+
